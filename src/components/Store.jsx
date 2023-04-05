@@ -7,18 +7,22 @@ export default class Store extends Component {
 
 		this.state = {
 			fruits: 25,
+			fruitName: "",
 		};
 	}
 
-	handleGrabFruit = () => {
+	handleGrabFruit = (fruitName) => {
 		this.setState({
 			fruits: this.state.fruits - 1,
+			fruitName: fruitName,
 		});
 	};
 	render() {
 		return (
 			<div>
-				<h1>Total fruits: {this.state.fruits}</h1>
+				<h1>
+					Total fruits: {this.state.fruits} - {this.state.fruitName}
+				</h1>
 				<StoreChild handleGrabFruit={this.handleGrabFruit} />
 			</div>
 		);

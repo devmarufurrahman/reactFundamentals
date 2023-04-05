@@ -3,7 +3,7 @@ import React from "react";
 const StoreChild = ({ handleGrabFruit }) => {
 	return (
 		<div>
-			<button onClick={handleGrabFruit}>Grab fruit</button>
+			<button onClick={() => handleGrabFruit("apple")}>Grab fruit</button>
 		</div>
 	);
 };

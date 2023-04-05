@@ -5,12 +5,21 @@
 // import HelloProps from "./components/HelloProps";
 // import Welcome from "./components/Welcome";
 // import Events from "./components/Event";
-import Store from "./components/Store";
+// import Store from "./components/Store";
+
+import Forms from "./components/Forms";
+
+// import Person from "./components/Person";
+
+// import Developer from "./components/Developer";
 
 function App() {
 	return (
 		<div>
-			<Store />
+			<Forms />
+			{/* <Person /> */}
+			{/* <Developer /> */}
+			{/* <Store /> */}
 			{/* <Events /> */}
 			{/* <Welcome /> */}
 			{/* <HelloProps name="Maruf" birthYear="2002" />
