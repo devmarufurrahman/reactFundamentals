@@ -6,17 +6,17 @@
 // import Welcome from "./components/Welcome";
 // import Events from "./components/Event";
 // import Store from "./components/Store";
-
-import Forms from "./components/Forms";
-
+// import Forms from "./components/Forms";
 // import Person from "./components/Person";
-
 // import Developer from "./components/Developer";
+
+import Parent from "./components/Memo/Parent";
 
 function App() {
 	return (
 		<div>
-			<Forms />
+			<Parent />
+			{/* <Forms /> */}
 			{/* <Person /> */}
 			{/* <Developer /> */}
 			{/* <Store /> */}
