@@ -1,5 +1,4 @@
 import React from "react";
-import { UserConsumer } from "../../context/userContext";
 
 const Comp4 = () => {
 	return (
