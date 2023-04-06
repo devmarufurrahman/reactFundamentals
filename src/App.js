@@ -13,16 +13,13 @@
 // import ReferenceBatman from "./components/ReferenceBatman";
 // import ClickCounter from "./components/counter/ClickCounter";
 // import HoverCounter from "./components/counter/HoverCounter";
-import { UserProvider } from "./context/userContext";
 import Comp1 from "./components/UserContex/Comp1";
 
 function App() {
-	const userName = "Masud";
 	return (
 		<div>
-			<UserProvider value={userName}>
-				<Comp1 />
-			</UserProvider>
+			<Comp1 />
+
 			{/* <HoverCounter />
 			<ClickCounter /> */}
 			{/* <ReferenceBatman /> */}
