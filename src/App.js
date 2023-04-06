@@ -10,12 +10,22 @@
 // import Person from "./components/Person";
 // import Developer from "./components/Developer";
 // import Parent from "./components/Memo/Parent";
-import ReferenceBatman from "./components/ReferenceBatman";
+// import ReferenceBatman from "./components/ReferenceBatman";
+// import ClickCounter from "./components/counter/ClickCounter";
+// import HoverCounter from "./components/counter/HoverCounter";
+import { UserProvider } from "./context/userContext";
+import Comp1 from "./components/UserContex/Comp1";
 
 function App() {
+	const userName = "Masud";
 	return (
 		<div>
-			<ReferenceBatman />
+			<UserProvider value={userName}>
+				<Comp1 />
+			</UserProvider>
+			{/* <HoverCounter />
+			<ClickCounter /> */}
+			{/* <ReferenceBatman /> */}
 			{/* <Parent /> */}
 			{/* <Forms /> */}
 			{/* <Person /> */}
