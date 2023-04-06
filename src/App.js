@@ -9,13 +9,14 @@
 // import Forms from "./components/Forms";
 // import Person from "./components/Person";
 // import Developer from "./components/Developer";
-
-import Parent from "./components/Memo/Parent";
+// import Parent from "./components/Memo/Parent";
+import ReferenceBatman from "./components/ReferenceBatman";
 
 function App() {
 	return (
 		<div>
-			<Parent />
+			<ReferenceBatman />
+			{/* <Parent /> */}
 			{/* <Forms /> */}
 			{/* <Person /> */}
 			{/* <Developer /> */}
